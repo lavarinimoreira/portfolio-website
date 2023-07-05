@@ -1,8 +1,13 @@
 import { NavLink } from "react-router-dom";
 import { LavariniMoreira, NavBar, NavBarLinks } from "../styles/nav-bar";
 import Player from "../shared/player-button";
+import LanguageSelector from "../shared/language-button";
 
-function EnglishNavBar() {
+interface NavBarProps {
+  toggleLanguage: () => void;
+}
+
+function EnglishNavBar({ toggleLanguage }: NavBarProps) {
   return (
     <NavBar>
       <LavariniMoreira>
@@ -27,6 +32,7 @@ function EnglishNavBar() {
         <NavLink className="nav-a" to="/contact">
           Contact
         </NavLink>
+        <LanguageSelector toggleLanguage={toggleLanguage} />
       </NavBarLinks>
     </NavBar>
   );

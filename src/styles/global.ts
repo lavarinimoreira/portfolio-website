@@ -57,6 +57,8 @@ table {
 #
 #=============================*/
 
+
+
   html, body, #root {
     min-height: 100%;
   }
@@ -99,11 +101,11 @@ table {
     margin: 0;
     padding: 0;
 
-    *::selection
+    /* *::selection
     {
       color: ${({ theme }) => theme.colors.black};
       text-shadow: none;
       background: white;
-    }
+    } */
   }
 `;

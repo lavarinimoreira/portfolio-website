@@ -11,9 +11,13 @@ export const Home = styled.div`
   margin-top: 8rem;
 
   h2 {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid ${({ theme }) => theme.colors.gray600};
     margin-bottom: 0.7rem;
     padding-bottom: 1rem;
+  }
+
+  P {
+    color: ${({ theme }) => theme.colors.gray500};
   }
 `;
 
@@ -40,4 +44,23 @@ export const Button = styled.div`
   padding: 2rem;
 
   transform: scale(1, 0.75);
+`;
+
+export const SocialMedia = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 15rem;
+
+  a {
+    color: ${({ theme }) => theme.colors.red};
+    font-size: 3rem;
+    transition: 0.4s;
+
+    &:hover {
+      color: ${({ theme }) => theme.colors.white};
+    }
+  }
 `;

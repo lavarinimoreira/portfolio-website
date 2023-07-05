@@ -4,7 +4,7 @@ import { Button, Home, HomeContent, SocialMedia } from "../styles/home";
 
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 
-function EnglishHome() {
+function PortugueseHome() {
   const navigate = useNavigate();
 
   const handleNavigate = () => {
@@ -13,12 +13,12 @@ function EnglishHome() {
 
   return (
     <Home>
-      <h1>Home</h1>
+      <h1>Início</h1>
       <HomeContent>
         <h2>Gabriel Lavarini</h2>
-        <p>{`< front end dev, editor and artist >`}</p>
+        <p>{`< front end dev, editor e artista >`}</p>
         <Button>
-          <Click title="see more" action={handleNavigate} />
+          <Click title="ver mais" action={handleNavigate} />
         </Button>
         <SocialMedia>
           <a
@@ -51,4 +51,4 @@ function EnglishHome() {
   );
 }
 
-export default EnglishHome;
+export default PortugueseHome;

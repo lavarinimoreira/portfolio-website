@@ -37,7 +37,8 @@ export const Button = styled.div`
     border-width: 2px;
     border-color: rgba(206, 49, 45, 0.12);
     border-radius: 0.1875rem;
-    background-color: rgba(206, 49, 45, 0.12);
+    /* background-color: rgba(206, 49, 45, 0.12); */
+    background-color: rgba(206, 49, 45, 0.05);
     color: #fff;
     font-size: 1rem;
     font-weight: 400;

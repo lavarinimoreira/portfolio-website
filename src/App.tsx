@@ -5,6 +5,7 @@ import useLanguage from "./hooks/useLanguage";
 import { Theme } from "./styles/Theme";
 import { GlobalStyle } from "./styles/global";
 import EnglishNavBar from "./components/english/nav-bar";
+import PortugueseNavBar from "./components/portuguese/nav-bar";
 
 function App() {
   const [language, setLanguage] = useLanguage(
@@ -21,7 +22,11 @@ function App() {
   return (
     <Theme>
       <LanguageContext.Provider value={language}>
-        <EnglishNavBar />
+        {language === languages.english ? (
+          <EnglishNavBar toggleLanguage={toggleLanguage} />
+        ) : (
+          <PortugueseNavBar toggleLanguage={toggleLanguage} />
+        )}
         <Outlet />
         <GlobalStyle />
       </LanguageContext.Provider>
