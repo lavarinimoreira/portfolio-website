@@ -28,6 +28,8 @@ declare module "styled-components" {
       gray900: string;
       primary: string;
       secondary: string;
+
+      selected: string;
     };
     fontFamily: {
       heading: string;

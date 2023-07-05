@@ -1,5 +1,11 @@
+import { Home } from "../styles/home";
+
 function EnglishHome() {
-  return <h1>English Home</h1>;
+  return (
+    <Home>
+      <h1>Home</h1>
+    </Home>
+  );
 }
 
 export default EnglishHome;

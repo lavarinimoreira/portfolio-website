@@ -3,6 +3,8 @@ import { Outlet } from "react-router-dom";
 import LanguageContext, { languages } from "./contexts/language-context";
 import useLanguage from "./hooks/useLanguage";
 import { Theme } from "./styles/Theme";
+import { GlobalStyle } from "./styles/global";
+import EnglishNavBar from "./components/english/nav-bar";
 
 function App() {
   const [language, setLanguage] = useLanguage(
@@ -19,8 +21,9 @@ function App() {
   return (
     <Theme>
       <LanguageContext.Provider value={language}>
-        <h1>website-portfolio</h1>
+        <EnglishNavBar />
         <Outlet />
+        <GlobalStyle />
       </LanguageContext.Provider>
     </Theme>
   );
