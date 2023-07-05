@@ -14,6 +14,11 @@ export const NavBar = styled.div`
     color: ${({ theme }) => theme.colors.selected};
     font-weight: 800;
   }
+
+  @media (max-width: 1050px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const LavariniMoreira = styled.div`
@@ -29,6 +34,11 @@ export const LavariniMoreira = styled.div`
     height: 20px;
 
     padding: 1.4rem;
+  }
+
+  @media (max-width: 815px) {
+    flex-direction: column;
+    margin-left: 0;
   }
 `;
 
@@ -48,6 +58,15 @@ export const NavBarLinks = styled.nav`
     &:hover {
       color: ${({ theme }) => theme.colors.selected};
       /* text-shadow: 0px 0px 6px ${({ theme }) => theme.colors.selected}; */
+    }
+  }
+
+  @media (max-width: 815px) {
+    flex-direction: column;
+    align-items: center;
+
+    a {
+      padding: 0.2rem;
     }
   }
 `;

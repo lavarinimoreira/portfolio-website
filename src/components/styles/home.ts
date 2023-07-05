@@ -19,6 +19,37 @@ export const Home = styled.div`
   P {
     color: ${({ theme }) => theme.colors.gray500};
   }
+
+  @media (max-width: 815px) {
+    margin-top: 20rem;
+  }
+
+  @media (max-width: 723px) {
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 483px) {
+    margin-top: 17rem;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+  }
 `;
 
 export const HomeContent = styled.div`
@@ -34,6 +65,14 @@ export const HomeContent = styled.div`
   border: 1px solid white;
   box-sizing: border-box;
   padding: 2rem;
+
+  @media (max-width: 723px) {
+    width: 30rem;
+  }
+
+  @media (max-width: 483px) {
+    width: 20rem;
+  }
 `;
 
 export const Button = styled.div`
@@ -44,6 +83,10 @@ export const Button = styled.div`
   padding: 2rem;
 
   transform: scale(1, 0.75);
+
+  @media (max-width: 483px) {
+    margin-top: 2rem;
+  }
 `;
 
 export const SocialMedia = styled.div`
@@ -61,6 +104,14 @@ export const SocialMedia = styled.div`
 
     &:hover {
       color: ${({ theme }) => theme.colors.white};
+    }
+
+    @media (max-width: 723px) {
+      font-size: 2.5rem;
+    }
+
+    @media (max-width: 483px) {
+      font-size: 2rem;
     }
   }
 `;

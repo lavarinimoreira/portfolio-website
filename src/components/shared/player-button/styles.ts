@@ -18,4 +18,15 @@ export const Container = styled.button`
   color: ${({ theme }) => theme.colors.red};
 
   cursor: pointer;
+
+  @media (max-width: 815px) {
+    position: absolute;
+    right: 0;
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+
+  @media (max-width: 438px) {
+    margin-top: 4rem;
+  }
 `;
