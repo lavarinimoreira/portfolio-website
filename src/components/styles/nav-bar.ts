@@ -17,6 +17,13 @@ export const NavBar = styled.div`
 `;
 
 export const LavariniMoreira = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  margin-left: 2rem;
+
   img {
     width: 277px;
     height: 20px;

@@ -1,10 +1,12 @@
 import { NavLink } from "react-router-dom";
 import { LavariniMoreira, NavBar, NavBarLinks } from "../styles/nav-bar";
+import Player from "../shared/player-button";
 
 function EnglishNavBar() {
   return (
     <NavBar>
       <LavariniMoreira>
+        <Player />
         <NavLink to="/">
           <img src="/images/lavarinimoreira.png" alt="" />
         </NavLink>
