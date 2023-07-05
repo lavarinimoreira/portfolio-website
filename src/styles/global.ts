@@ -72,7 +72,22 @@ table {
       letter-spacing: -0.05rem;
       text-transform: uppercase;
     }
-    
+
+    h2{
+      font-size: 3rem;
+      font-family: 'Eurostile';
+      transform: scale(1, 0.7);
+      letter-spacing: -0.05rem;
+      text-transform: uppercase;
+
+      font-weight: bold;
+
+      color: ${({ theme }) => theme.colors.red};
+    }
+
+    p{
+      font-size: 1.25rem;
+    }
     font-family: 'Eurostile';
     
     width: 100%;
