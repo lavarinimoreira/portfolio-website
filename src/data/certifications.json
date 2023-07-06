@@ -1,0 +1,24 @@
+{
+    "certifications": [
+        {
+            "name": "CCNA: Introduction to Networks",
+            "link": "https://www.credly.com/badges/94174798-7062-40f3-a01a-fd03e934e066?source=linked_in_profile",
+            "image": "/images/certifications/ccna.png"
+        },
+        {
+            "name": "EF SET English (C2 Proficient)",
+            "link": "https://www.efset.org/cert/ZPQn3u",
+            "image": "/images/certifications/ef-set.png"
+        },
+        {
+            "name": "Linux Admin",
+            "link": "https://www.credential.net/9ec5a6fd-046d-49e2-b665-f287fe74200f",
+            "image": "/images/certifications/linux-admin.png"
+        },
+        {
+            "name": "Oracle Cloud Infrastructure",
+            "link": "https://catalog-education.oracle.com/pls/certview/sharebadge?id=F2F14582A9F35711BE91F1480947018942B46389AADAA561DB0D306F6213C4AF",
+            "image": "/images/certifications/Oracle_Cloud_Infrastructure_Foundations_Associate.png"
+        }
+    ]
+}

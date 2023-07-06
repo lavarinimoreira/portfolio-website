@@ -87,6 +87,15 @@ table {
       color: ${({ theme }) => theme.colors.red};
     }
 
+    h3{
+      font-size: 1.8rem;
+      color: ${({ theme }) => theme.colors.red};
+  }
+
+  h4{
+    font-size: 1.25rem;
+  }
+
     p{
       font-size: 1.25rem;
     }
