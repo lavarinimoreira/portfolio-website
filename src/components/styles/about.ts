@@ -9,6 +9,7 @@ export const About = styled.div`
   width: 100%;
 
   margin-top: 8rem;
+  margin-bottom: 6rem;
 
   h2 {
     border-bottom: 2px solid ${({ theme }) => theme.colors.gray600};
@@ -16,7 +17,7 @@ export const About = styled.div`
     padding-bottom: 1rem;
   }
 
-  P {
+  p {
     color: ${({ theme }) => theme.colors.gray500};
     line-height: 1.5rem;
     text-align: justify;
@@ -31,7 +32,7 @@ export const About = styled.div`
     margin-top: 20rem;
   }
 
-  @media (max-width: 723px) {
+  @media (max-width: 750px) {
     h1 {
       font-size: 3rem;
     }
@@ -46,7 +47,7 @@ export const About = styled.div`
     }
   }
 
-  @media (max-width: 483px) {
+  @media (max-width: 500px) {
     margin-top: 17rem;
 
     h1 {
@@ -55,6 +56,10 @@ export const About = styled.div`
 
     h2 {
       font-size: 2rem;
+    }
+
+    h4 {
+      font-size: 1rem;
     }
   }
 `;
@@ -73,11 +78,11 @@ export const AboutContent = styled.div`
   box-sizing: border-box;
   padding: 2rem;
 
-  @media (max-width: 723px) {
+  @media (max-width: 750px) {
     width: 30rem;
   }
 
-  @media (max-width: 483px) {
+  @media (max-width: 500px) {
     width: 20rem;
   }
 `;
@@ -91,7 +96,7 @@ export const Button = styled.div`
 
   transform: scale(1, 0.75);
 
-  @media (max-width: 483px) {
+  @media (max-width: 500px) {
     margin-top: 2rem;
   }
 `;
@@ -113,11 +118,11 @@ export const SocialMedia = styled.div`
       color: ${({ theme }) => theme.colors.white};
     }
 
-    @media (max-width: 723px) {
+    @media (max-width: 750px) {
       font-size: 2.5rem;
     }
 
-    @media (max-width: 483px) {
+    @media (max-width: 500px) {
       font-size: 2rem;
     }
   }
@@ -144,6 +149,10 @@ export const Resume = styled.div`
 
     margin-left: 0.5rem;
   }
+
+  @media (max-width: 500px) {
+    width: 91%;
+  }
 `;
 
 export const Avatar = styled.img`
@@ -152,6 +161,11 @@ export const Avatar = styled.img`
   height: 200px;
   object-fit: cover;
   border: 2px solid white;
+
+  @media (max-width: 750px) {
+    width: 150px;
+    height: 150px;
+  }
 `;
 
 export const SkillContainer = styled.div`
@@ -187,6 +201,9 @@ export const SkillContainer = styled.div`
                 padding: 0 0.5px 0 0.5px;
             }
         } */
+    @media (max-width: 500px) {
+      padding: 0.4rem;
+    }
   }
 
   .js {
@@ -275,5 +292,33 @@ export const CertificationsGrid = styled.div`
   @media (max-width: 550px) {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0;
+  }
+`;
+
+export const IconsLinks = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  margin: 0 0 2rem 0;
+  width: 45%;
+
+  a {
+    color: ${({ theme }) => theme.colors.red};
+    font-size: 2.2em;
+    transition: 0.4s;
+
+    &:hover {
+      color: ${({ theme }) => theme.colors.white};
+    }
+
+    @media (max-width: 500px) {
+      font-size: 1.8rem;
+    }
+  }
+
+  @media (max-width: 750px) {
+    width: 80%;
   }
 `;

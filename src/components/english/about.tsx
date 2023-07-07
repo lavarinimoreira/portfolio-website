@@ -3,9 +3,18 @@ import {
   AboutContent,
   Avatar,
   CertificationsGrid,
+  IconsLinks,
   Resume,
   SkillContainer,
 } from "../styles/about";
+
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiOutlineTwitter,
+  AiOutlineMail,
+  AiOutlineInstagram,
+} from "react-icons/ai";
 
 import {
   DiReact,
@@ -26,14 +35,65 @@ import { VscDesktopDownload } from "react-icons/vsc";
 
 import certifications from "../../data/certifications.json";
 import CertificationCard from "../shared/certification-card";
+import { Button } from "../styles/home";
+import { useNavigate } from "react-router-dom";
+import Click from "../shared/button";
 
 function EnglishAbout() {
+  const navigate = useNavigate();
+
+  const handleNavigate = () => {
+    return navigate("/projects");
+  };
+
   return (
     <About>
       <h1>About</h1>
       <AboutContent>
         <Avatar src="/images/gabriel.jpg" alt="Gabriel Lavarini" />
         <h2>Welcome</h2>
+        <IconsLinks>
+          <a
+            className="home-link-git"
+            href="https://www.github.com/lavarinimoreira"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiFillGithub />
+          </a>
+          <a
+            className="home-link-in"
+            href="https://www.linkedin.com/in/gabriel-lavarini-moreira-878706149/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiFillLinkedin />
+          </a>
+          <a
+            className="home-link-tt"
+            href="https://twitter.com/lavarinimoreira"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiOutlineTwitter />
+          </a>
+          <a
+            className="instagram"
+            href="https://www.instagram.com/gabriel_lavarini/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiOutlineInstagram />
+          </a>
+          <a
+            className="mail"
+            href="mailto:gabriel@lavarinimoreira.me"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiOutlineMail />
+          </a>
+        </IconsLinks>
         <p>{`I'm Gabriel Lavarini. Thank you for taking the time to check out my portfolio.`}</p>
         <Resume>
           <h4>Looking for my resume?</h4>
@@ -121,6 +181,9 @@ function EnglishAbout() {
             />
           ))}
         </CertificationsGrid>
+        <Button>
+          <Click title="projects" action={handleNavigate} />
+        </Button>
       </AboutContent>
     </About>
   );

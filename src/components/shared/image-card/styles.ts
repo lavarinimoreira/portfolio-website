@@ -30,7 +30,7 @@ export const Container = styled.div`
   p {
     padding: 8px;
     margin: 0;
-    color: ${({ theme }) => theme.colors.white};
+    text-align: center;
   }
 
   @media (max-width: 1250px) {

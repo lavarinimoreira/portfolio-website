@@ -8,6 +8,8 @@ export const NavBar = styled.div`
   flex-direction: row;
   justify-content: space-between;
 
+  background-color: ${({ theme }) => theme.colors.black};
+
   width: 100%;
 
   .active {
@@ -19,6 +21,12 @@ export const NavBar = styled.div`
     flex-direction: column;
     align-items: center;
   }
+
+  @media (max-width: 815px) {
+    position: absolute;
+  }
+
+  z-index: 9;
 `;
 
 export const LavariniMoreira = styled.div`
