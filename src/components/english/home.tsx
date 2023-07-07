@@ -1,16 +1,9 @@
-import { useNavigate } from "react-router-dom";
 import Click from "../shared/button";
 import { Button, Home, HomeContent, SocialMedia } from "../styles/home";
 
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 
 function EnglishHome() {
-  const navigate = useNavigate();
-
-  const handleNavigate = () => {
-    return navigate("/about");
-  };
-
   return (
     <Home>
       <h1>Home</h1>
@@ -18,7 +11,7 @@ function EnglishHome() {
         <h2>Gabriel Lavarini</h2>
         <p>{`< front end dev, editor and artist >`}</p>
         <Button>
-          <Click title="see more" action={handleNavigate} />
+          <Click title="see more" action="/about" />
         </Button>
         <SocialMedia>
           <a

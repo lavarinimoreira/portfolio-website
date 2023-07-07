@@ -36,16 +36,9 @@ import { VscDesktopDownload } from "react-icons/vsc";
 import certifications from "../../data/certifications.json";
 import CertificationCard from "../shared/certification-card";
 import { Button } from "../styles/home";
-import { useNavigate } from "react-router-dom";
 import Click from "../shared/button";
 
 function EnglishAbout() {
-  const navigate = useNavigate();
-
-  const handleNavigate = () => {
-    return navigate("/projects");
-  };
-
   return (
     <About>
       <h1>About</h1>
@@ -182,7 +175,7 @@ function EnglishAbout() {
           ))}
         </CertificationsGrid>
         <Button>
-          <Click title="projects" action={handleNavigate} />
+          <Click title="projects" action="/projects" />
         </Button>
       </AboutContent>
     </About>

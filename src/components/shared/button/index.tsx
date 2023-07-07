@@ -2,12 +2,12 @@ import { Button } from "./styles";
 
 interface ClickProps {
   title: string;
-  action: () => void;
+  action: string;
 }
 
 function Click({ title, action }: ClickProps) {
   return (
-    <Button onClick={() => action()}>
+    <Button to={action}>
       <a href="" className="click click-w-button">
         {title}
       </a>

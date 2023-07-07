@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import { styled } from "styled-components";
 
-export const Button = styled.div`
+export const Button = styled(Link)`
   position: absolute;
   top: 50%;
   left: 50%;
