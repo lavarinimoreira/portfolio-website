@@ -16,7 +16,7 @@ export const Button = styled(Link)`
   background-color: rgba(0, 0, 0, 0);
   transition: 0.2s;
   text-transform: uppercase;
-  a {
+  div .a {
     font-size: 1rem;
     font-weight: 800;
     letter-spacing: 1px;

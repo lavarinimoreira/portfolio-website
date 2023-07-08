@@ -8,9 +8,7 @@ interface ClickProps {
 function Click({ title, action }: ClickProps) {
   return (
     <Button to={action}>
-      <a href="" className="click click-w-button">
-        {title}
-      </a>
+      <div className="a click click-w-button">{title}</div>
       <div className="click-decoration_upper-left-blur"></div>
       <div className="click-decoration_upper-left-deco"></div>
       <div className="click-decoration_bottom-right"></div>
