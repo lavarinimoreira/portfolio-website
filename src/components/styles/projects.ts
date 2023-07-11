@@ -26,6 +26,12 @@ export const Projects = styled.div`
   h3 {
     margin-top: 2rem;
     margin-bottom: 1rem;
+    color: ${({ theme }) => theme.colors.white};
+  }
+
+  h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   @media (max-width: 815px) {
@@ -43,7 +49,6 @@ export const Projects = styled.div`
 
     p {
       font-size: 1.1rem;
-      text-align: center;
     }
   }
 
@@ -56,6 +61,10 @@ export const Projects = styled.div`
 
     h2 {
       font-size: 2rem;
+    }
+
+    h3 {
+      text-align: center;
     }
 
     h4 {
@@ -76,7 +85,7 @@ export const ProjectsContent = styled.div`
 
   border: 1px solid white;
   box-sizing: border-box;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem 2rem;
 
   @media (max-width: 750px) {
     width: 30rem;
@@ -88,10 +97,16 @@ export const ProjectsContent = styled.div`
 
   a {
     text-decoration: none;
-    color: ${({ theme }) => theme.colors.purple};
+    color: ${({ theme }) => theme.colors.red};
     font-size: 1.25rem;
 
     margin-left: 0.5rem;
+    line-height: 1.8rem;
+
+    transition: 0.4s;
+    &:hover {
+      color: ${({ theme }) => theme.colors.white};
+    }
   }
 `;
 
@@ -117,6 +132,10 @@ export const Resume = styled.div`
     margin-left: 0.5rem;
   }
 
+  p {
+    color: white;
+  }
+
   @media (max-width: 500px) {
     width: 91%;
   }
@@ -134,6 +153,10 @@ export const ProjectsCard = styled.div`
     height: 310px;
   }
 
+  a {
+    text-decoration: underline;
+  }
+
   @media (max-width: 1055px) {
     & {
       width: 400px;
@@ -145,13 +168,22 @@ export const ProjectsCard = styled.div`
       margin: 0;
     }
   }
+
+  @media (max-width: 500px) {
+    width: 280px;
+
+    a {
+      font-size: 1.1rem;
+    }
+  }
 `;
 
 export const LineBreak = styled.div`
   width: 100%;
   border-top: ${({ theme }) => theme.colors.gray600} solid 1px;
   height: 1px;
-  margin-top: 1rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 
   @media (max-width: 750px) {
     width: 75%;

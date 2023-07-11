@@ -5,6 +5,9 @@ import {
   LineBreak,
 } from "../styles/projects";
 import projectsEnglish from "../../data/projects.json";
+import { Resume } from "../styles/projects";
+
+import { VscDesktopDownload } from "react-icons/vsc";
 
 function EnglishProjects() {
   return (
@@ -33,6 +36,18 @@ function EnglishProjects() {
             <LineBreak />
           </ProjectsCard>
         ))}
+
+        <Resume>
+          <p>Looking for my resume?</p>
+          <div>
+            <span className="download-icon">
+              <VscDesktopDownload />
+            </span>
+            <a href="" download="gabriel-resume">
+              Click here to download it!
+            </a>
+          </div>
+        </Resume>
       </ProjectsContent>
     </Projects>
   );
