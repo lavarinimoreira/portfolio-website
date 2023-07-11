@@ -109,8 +109,12 @@ export const GalleryHeader = styled.div`
 
   margin: 0 0 2rem 0;
 
-  h1 {
+  p {
     color: ${({ theme }) => theme.colors.red};
+  }
+
+  h1 {
+    /* color: ${({ theme }) => theme.colors.red}; */
     @media (max-width: 750px) {
       font-size: 2.6rem;
     }
