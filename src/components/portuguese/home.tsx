@@ -1,24 +1,17 @@
-import { useNavigate } from "react-router-dom";
 import Click from "../shared/button";
 import { Button, Home, HomeContent, SocialMedia } from "../styles/home";
 
 import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 
 function PortugueseHome() {
-  const navigate = useNavigate();
-
-  const handleNavigate = () => {
-    return navigate("/about");
-  };
-
   return (
     <Home>
       <h1>Início</h1>
       <HomeContent>
         <h2>Gabriel Lavarini</h2>
-        <p>{`< front end dev, editor e artista >`}</p>
+        <p>{`< front end, editor e artista >`}</p>
         <Button>
-          <Click title="ver mais" action={handleNavigate} />
+          <Click title="ver mais" action="/about" />
         </Button>
         <SocialMedia>
           <a
