@@ -20,7 +20,7 @@ export const Contact = styled.div`
   p {
     color: ${({ theme }) => theme.colors.gray500};
     line-height: 1.5rem;
-    text-align: justify;
+    /* text-align: justify; */
     margin-top: 1rem;
   }
 

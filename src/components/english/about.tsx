@@ -38,6 +38,8 @@ import CertificationCard from "../shared/certification-card";
 import { Button } from "../styles/home";
 import Click from "../shared/button";
 
+import resume from "../../../public/images/gabriel-resume.pdf";
+
 function EnglishAbout() {
   return (
     <About>
@@ -94,7 +96,7 @@ function EnglishAbout() {
             <span className="download-icon">
               <VscDesktopDownload />
             </span>
-            <a href="" download="Gabriel_Lavarini_Resume">
+            <a href={resume} download="gabriel-resume">
               Click here to download it!
             </a>
           </div>

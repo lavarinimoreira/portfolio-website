@@ -24,7 +24,7 @@ function PortugueseNavBar({ toggleLanguage }: NavBarProps) {
           Sobre
         </NavLink>
         <NavLink className="nav-a" to="/projects">
-          Projectos
+          Projetos
         </NavLink>
         <NavLink className="nav-a" to="/gallery">
           Galeria
