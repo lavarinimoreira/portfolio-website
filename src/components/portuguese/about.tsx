@@ -104,7 +104,7 @@ function PortugueseAbout() {
         <h3>Sobre</h3>
         <p>
           Sou um desenvolvedor front end atualmente em busca de uma oportunidade
-          de trabalho, mas também faço freelancer. Sou formado em Artes pela
+          de trabalho, amas também faço freelancer. Sou formado em Artes pela
           UFMG e comecei a aprender sobre Programação em 2020, foi amor ao
           primeiro "Hello World". Em 2021 comecei a programar mais a sério, e
           agora estou no terceiro ano do curso de Análise e Desenvolvimento de

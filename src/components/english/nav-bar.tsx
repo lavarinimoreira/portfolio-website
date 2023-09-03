@@ -20,9 +20,9 @@ function EnglishNavBar({ toggleLanguage }: NavBarProps) {
         <NavLink className="first-link nav-a" to="/">
           Home
         </NavLink>
-        <NavLink className="first-link nav-a" to="/about">
+        {/* <NavLink className="first-link nav-a" to="/about">
           About
-        </NavLink>
+        </NavLink> */}
         <NavLink className="nav-a" to="/projects">
           Projects
         </NavLink>

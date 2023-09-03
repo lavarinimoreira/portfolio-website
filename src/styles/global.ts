@@ -62,10 +62,28 @@ table {
   html, body, #root {
     min-height: 100%;
   }
+
+  html{
+    ::-webkit-scrollbar{
+      width: 12px;
+    }
+
+    ::-webkit-scrollbar-track{
+      background: black;
+      border-radius: 3rem;
+    }
+
+    ::-webkit-scrollbar-thumb{
+      background: ${({ theme }) => theme.colors.red};
+      border-radius: 3rem;
+    }
+  }
+
   body {
     @font-face {
     font-family: 'Eurostile';
-    src: url('/src/fonts/eurostile/Eurostile.ttf') format('truetype')
+    /* src: url('/src/fonts/eurostile/Eurostile.ttf') format('truetype') */
+    src: url('/eurostile/Eurostile.ttf') format('truetype')
   }
     h1{
       font-size: 4.5REM;
@@ -110,11 +128,13 @@ table {
     margin: 0;
     padding: 0;
 
-    /* *::selection
+    *::selection
     {
       color: ${({ theme }) => theme.colors.black};
       text-shadow: none;
       background: white;
-    } */
+    }
+
+    
   }
 `;

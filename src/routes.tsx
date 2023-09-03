@@ -11,7 +11,7 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
 
 import HomePage from "./pages/home";
-import AboutPage from "./pages/about";
+// import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
 import GalleryPage from "./pages/gallery";
 import ProjectsPage from "./pages/projects";
@@ -27,7 +27,7 @@ export const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { path: "/", element: <HomePage /> },
-      { path: "/about", element: <AboutPage /> },
+      // { path: "/about", element: <AboutPage /> },
       { path: "/projects", element: <ProjectsPage /> },
       { path: "/gallery", element: <GalleryPage /> },
       { path: "/contact", element: <ContactPage /> },
