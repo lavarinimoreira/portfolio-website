@@ -32,17 +32,6 @@
       "web": "https://github-api.lavarinimoreira.me/",
       "webTitle": "github-api.lavarinimoreira.me",
       "technologies": "React, JavaScript, Styled Components, HTML"
-    },
-    {
-      "id": "planetary",
-      "image": "/images/portfolio/planetary.png",
-      "title": "Astronomy Picture of the day",
-      "date": "02/2023",
-      "description": "This application consumes Nasa's API picture of the day, providing an image with some information about it. As I starded learning the 3JS Journey with Bruno Simon, I also added this 3d model in the composition.",
-      "git": "https://github.com/lavarinimoreira/planetary",
-      "web": "https://planetary.lavarinimoreira.me/",
-      "webTitle": "planetary.lavarinimoreira.me",
-      "technologies": "React, TypeScript, CSS, HTML, React Three Fiber"
     }
   ],
 
@@ -79,17 +68,6 @@
       "web": "https://github-api.lavarinimoreira.me/",
       "webTitle": "github-api.lavarinimoreira.me",
       "technologies": "React, JavaScript, Styled Components, HTML"
-    },
-    {
-      "id": "planetary",
-      "image": "/images/portfolio/planetary.png",
-      "title": "Imagem do dia",
-      "date": "02/2023",
-      "description": "Este aplicativo consome a API \"picture of the day\" da NASA, disponibilizando uma imagem com algumas informações sobre. Como comecei a aprender a jornada 3JS com Bruno Simon, também adicionei esse modelo 3d na composição.",
-      "git": "https://github.com/lavarinimoreira/planetary",
-      "web": "https://planetary.lavarinimoreira.me/",
-      "webTitle": "planetary.lavarinimoreira.me",
-      "technologies": "React, TypeScript, CSS, HTML, React Three Fiber"
     }
   ]
 }
