@@ -20,7 +20,7 @@ function PortugueseContact() {
           contactar-me a qualquer hora pelo{" "}
           <a
             className="linkedin"
-            href="https://www.linkedin.com/in/gabriel-lavarini-moreira-878706149/"
+            href="https://www.linkedin.com/in/gabriel-lavarini-moreira-8270b228a/"
             target="_blank"
             rel="noreferrer"
           >
@@ -46,7 +46,7 @@ function PortugueseContact() {
             <AiOutlineMail />
           </a>
           <a
-            href="https://www.linkedin.com/in/gabriel-lavarini-moreira-878706149/"
+            href="https://www.linkedin.com/in/gabriel-lavarini-moreira-8270b228a/"
             target="_blank"
             rel="noreferrer"
           >

@@ -65,7 +65,7 @@ table {
 
   html{
     ::-webkit-scrollbar{
-      width: 12px;
+      width: 8px;
     }
 
     ::-webkit-scrollbar-track{

@@ -1,5 +1,6 @@
 {
   "gallery": [
+    { "id": "if-barbacena", "image": "/images/gallery/if-barbacena.png" },
     { "id": "lavarinimoreira", "image": "/images/gallery/lavarinimoreira.png" },
     { "id": "github-api-1", "image": "/images/gallery/github-api-1.png" },
     { "id": "github-api-2", "image": "/images/gallery/github-api-2.png" },

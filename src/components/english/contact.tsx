@@ -19,7 +19,7 @@ function EnglishContact() {
           out - I would love to chat! You can reach me any hour through{" "}
           <a
             className="linkedin"
-            href="https://www.linkedin.com/in/gabriel-lavarini-moreira-878706149/"
+            href="https://www.linkedin.com/in/gabriel-lavarini-moreira-8270b228a/"
             target="_blank"
             rel="noreferrer"
           >
@@ -45,7 +45,7 @@ function EnglishContact() {
             <AiOutlineMail />
           </a>
           <a
-            href="https://www.linkedin.com/in/gabriel-lavarini-moreira-878706149/"
+            href="https://www.linkedin.com/in/gabriel-lavarini-moreira-8270b228a/"
             target="_blank"
             rel="noreferrer"
           >

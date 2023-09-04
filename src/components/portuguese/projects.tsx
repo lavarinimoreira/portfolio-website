@@ -9,6 +9,8 @@ import { Resume } from "../styles/projects";
 
 import { VscDesktopDownload } from "react-icons/vsc";
 
+import resume from "../../../public/images/gabriel-cv.pdf";
+
 function PortugueseProjects() {
   return (
     <Projects>
@@ -43,7 +45,7 @@ function PortugueseProjects() {
             <span className="download-icon">
               <VscDesktopDownload />
             </span>
-            <a href="" download="gabriel-resume">
+            <a href={resume} download="gabriel-resume">
               Clique aqui para baixá-lo.
             </a>
           </div>
