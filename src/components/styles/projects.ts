@@ -154,7 +154,7 @@ export const ProjectsCard = styled.div`
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   @media (max-width: 1055px) {

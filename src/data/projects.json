@@ -1,10 +1,21 @@
 {
   "projectsEnglish": [
     {
+      "id": "if-barbacena",
+      "image": "/images/portfolio/if.png",
+      "title": "3D Interactive Scene",
+      "date": "08/2023",
+      "description": "Since I started the ThreeJS Journey course with Bruno Simon, I designed and engineered this scene from scratch using React, Three.js and Blender. I Hope you enjoy the immersive experience as much as I had building it.",
+      "git": "https://github.com/lavarinimoreira/if-barbacena",
+      "web": "https://if-barbacena.lavarinimoreira.me",
+      "webTitle": "if-barbacena.lavarinimoreira.me",
+      "technologies": "React, TypeScript, 3JS, React Three Fiber"
+    },
+    {
       "id": "portfolio-website",
       "image": "/images/portfolio/lavarinimoreira.png",
       "title": "lavarinimoreira.me",
-      "date": "20/05/2023",
+      "date": "05/2023",
       "description": "The strategy here was to build a website with portability in both Portuguese and English that showcases my expertise and creativity in web development to aid my job search. Through the use of responsive design, the website adapts beautifully to different devices and screen sizes. It was built with React, TypeScript and styled components. Hope you enjoy it.",
       "git": "https://github.com/lavarinimoreira/portfolio-website",
       "web": "https://lavarinimoreira.me",
@@ -15,7 +26,7 @@
       "id": "github-api",
       "image": "/images/portfolio/github-api.png",
       "title": "GitHub API",
-      "date": "29/03/2023",
+      "date": "03/2023",
       "description": "This is a React application that consumes the GitHub API to display a user's information as well as their projects. It was my first React project using styled components, and I really enjoyed it. I intend to use styled components in my future projects as well.",
       "git": "https://github.com/lavarinimoreira/github-api",
       "web": "https://github-api.lavarinimoreira.me/",
@@ -26,7 +37,7 @@
       "id": "planetary",
       "image": "/images/portfolio/planetary.png",
       "title": "Astronomy Picture of the day",
-      "date": "18/02/2023",
+      "date": "02/2023",
       "description": "This application consumes Nasa's API picture of the day, providing an image with some information about it. As I starded learning the 3JS Journey with Bruno Simon, I also added this 3d model in the composition.",
       "git": "https://github.com/lavarinimoreira/planetary",
       "web": "https://planetary.lavarinimoreira.me/",
@@ -37,10 +48,21 @@
 
   "projectsPortuguese": [
     {
+      "id": "if-barbacena",
+      "image": "/images/portfolio/if.png",
+      "title": "Cena interativa 3D",
+      "date": "08/2023",
+      "description": "Desde que iniciei o curso ThreeJS Journey, com Bruno Simon, projetei e desenvolvi essa cena do zero usando React, Three.js e Blender. Espero que você goste da experiência imersiva tanto quanto eu gostei de construí-la.",
+      "git": "https://github.com/lavarinimoreira/if-barbacena",
+      "web": "https://if-barbacena.lavarinimoreira.me",
+      "webTitle": "if-barbacena.lavarinimoreira.me",
+      "technologies": "React, TypeScript, 3JS, React Three Fiber"
+    },
+    {
       "id": "portfolio-website",
       "image": "/images/portfolio/lavarinimoreira.png",
       "title": "lavarinimoreira.me",
-      "date": "20/04/2023",
+      "date": "04/2023",
       "description": "A estratégia aqui foi construir um site com portabilidade em português e inglês que mostrasse minha experiência e criatividade em desenvolvimento web para ajudar na minha procura de emprego. Através do uso de design responsivo, o site se adapta perfeitamente a diferentes dispositivos e tamanhos de tela. As tecnologias utilizadas foram React, TypeScript, Styled Components e HTML.",
       "git": "https://github.com/lavarinimoreira/portfolio-website",
       "web": "https://lavarinimoreira.me",
@@ -51,7 +73,7 @@
       "id": "github-api",
       "image": "/images/portfolio/github-api.png",
       "title": "API GitHub",
-      "date": "29/03/2023",
+      "date": "03/2023",
       "description": "Este é um aplicativo React que consome a API do GitHub para exibir as informações de um usuário, bem como seus projetos. Foi minha primeira aplicação React utilizando Styled Components, pretendo continuar utilizando esta tecnologia em meus projetos futuros também.",
       "git": "https://github.com/lavarinimoreira/github-api",
       "web": "https://github-api.lavarinimoreira.me/",
@@ -62,7 +84,7 @@
       "id": "planetary",
       "image": "/images/portfolio/planetary.png",
       "title": "Imagem do dia",
-      "date": "18/02/2023",
+      "date": "02/2023",
       "description": "Este aplicativo consome a API \"picture of the day\" da NASA, disponibilizando uma imagem com algumas informações sobre. Como comecei a aprender a jornada 3JS com Bruno Simon, também adicionei esse modelo 3d na composição.",
       "git": "https://github.com/lavarinimoreira/planetary",
       "web": "https://planetary.lavarinimoreira.me/",
